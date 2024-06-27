@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+
+h1 {
+  color: white;
+}
+
+img {
+  height: 50px;
+  margin: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+input {
+  border: none;
+  height: 20px;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+.trybewarts-login input,
+button {
+  width: 130px;
+  height: 27px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.trybewarts-login button {
+  color: white;
+  background-color: #4e2c83;
+  font-weight: bolder;
+  opacity: 0.9;
+  height: 37px;
+}
+
+.trybewarts-login button:hover {
+  opacity: 1;
+  width: 135px;
+  height: 40px;
+  font-size: 14px;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #efefef;
+}
+
+#evaluation-form {
+  display: flex;
+  max-width: 40%;
+  flex-direction: column;
+}
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.house {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: column;
+}
+
+#label-content {
+  /* margin: 20px; */
+  display: flex;
+  flex-direction: column;
+}
+
+#checkbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.trybewarts-arms {
+  height: 500px;
+}
